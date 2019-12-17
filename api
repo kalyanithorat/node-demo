@@ -1,0 +1,52 @@
+1.register api
+Create user:
+Method:POST
+/register
+{
+		 "name":"kalyani",
+		 "firstname":"kalyani",
+		 "lastname":"thorat",
+		 "email":"k@gmail.com",
+		 "password":"12345"
+         
+        	}
+
+2.login:
+method:POST
+/login
+ {
+    "email": "1ridima@gmail.com",
+           "password":"123456"
+   }
+
+
+  3.loggedinuser:
+
+method:post
+/getUser
+
+  {   
+             "id":"5df360b4ab27f423e8ef1fb4" 
+   }
+   
+4.get user by id:
+/loggedInUser
+
+{   
+             "id":"5df360b4ab27f423e8ef1fb4" 
+   }
+
+
+ 5.  update user:
+   /updateUser
+
+   {
+             
+              
+             "id":"5df360b4ab27f423e8ef1fb4",
+             "user":{
+             	"lastname":"thorat"
+             }
+          
+   }
+   
